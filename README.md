@@ -8,7 +8,7 @@ An **interactive and responsive music website** that changes its **background vi
 
 ## 🚀 Live Demo
 
-🔗 **Check it out here:** [https://your-username.github.io/mood-music-website/](https://your-username.github.io/mood-music-website/) 
+🔗 **Check it out here:** [https://your-username.github.io/mood-music-website/](https://shaik-nazia-cse.github.io/mood-music-website/) 
 
 ---
 
