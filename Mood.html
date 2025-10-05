@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Music — Feel Your Vibe 🎶</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Video -->
+  <video id="bgVideo" autoplay muted loop class="bg-video">
+    <source src="./videos/happy_1.mp4" type="video/mp4" />
+  </video>
+  <div class="overlay"></div>
+
+  <!-- Header -->
+  <header class="topbar">
+    <h1>Mood Music</h1>
+    <p class="subtitle">Let your mood decide the rhythm 💫</p>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+    <section class="mood-selector">
+      <h2>Select Your Mood</h2>
+      <div class="mood-grid">
+        <button class="mood-btn" data-mood="happy">😊 Happy</button>
+        <button class="mood-btn" data-mood="sad">😢 Sad</button>
+        <button class="mood-btn" data-mood="party">🎉 Party</button>
+        <button class="mood-btn" data-mood="focus">🧠 Focus</button>
+        <button class="mood-btn" data-mood="chill">🌊 Chill</button>
+      </div>
+    </section>
+
+    <!-- Themes -->
+    <section class="themes" id="themesSection">
+      <h2>Explore More Vibes</h2>
+      <div class="cards-grid">
+        <div class="card" data-theme="rain" style="background-image:url('images/rainy_1.webp')">
+          <h3>Rainy Vibes ☔</h3>
+        </div>
+        <div class="card" data-theme="motivation" style="background-image:url('images/motivation.jpg')">
+          <h3>Motivation 💪</h3>
+        </div>
+        <div class="card" data-theme="dj" style="background-image:url('images/party2.jpg')">
+          <h3>DJ Beats 🔊</h3>
+        </div>
+        <div class="card" data-theme="calm" style="background-image:url('images/clam.jpg')">
+          <h3>Calm Flow 🌸</h3>
+        </div>
+        <div class="card" data-theme="road" style="background-image:url('images/road_trip.webp')">
+          <h3>ROad Trip ❤️</h3>
+        </div>
+        <div class="card" data-theme="lofi" style="background-image:url('images/chill_1.jpg')">
+          <h3>Lo-fi Zone 🎧</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Songs Modal -->
+  <div id="songModal" class="modal hidden">
+    <div class="modal-content">
+      <button id="modalClose" class="close">✕</button>
+      <h3 id="modalTitle">Songs</h3>
+      <div id="langContainer" class="lang-container"></div>
+      <ul id="songList" class="song-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
