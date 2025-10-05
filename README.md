@@ -1,4 +1,4 @@
- 🎶 Mood Music Web App
+z 🎶 Mood Music Web App
 
 An **interactive and responsive music website** that changes its **background video, theme, and song recommendations** based on the user's selected mood — such as **Happy, Sad, Party, Chill, or Focus**.
 
@@ -8,7 +8,7 @@ An **interactive and responsive music website** that changes its **background vi
 
 ## 🚀 Live Demo
 
-🔗 **Check it out here:** [https://your-username.github.io/mood-music-website/](https://shaik-nazia-cse.github.io/mood-music-website/) 
+🔗 **Check it out here:**(https://shaik-nazia-cse.github.io/mood-music-website/).
 
 ---
 
